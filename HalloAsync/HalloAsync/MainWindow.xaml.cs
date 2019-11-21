@@ -27,12 +27,12 @@ namespace HalloAsync
         public MainWindow()
         {
             InitializeComponent();
-             bg = new BackgroundWorker();
+            bg = new BackgroundWorker();
             bg.WorkerReportsProgress = true;
             bg.ProgressChanged += Bg_ProgressChanged;
             bg.DoWork += Bg_DoWork;
             bg.RunWorkerCompleted += Bg_RunWorkerCompleted;
-          //      bg.RunWorkerAsync();
+            //      bg.RunWorkerAsync();
         }
 
         private void Bg_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -108,6 +108,7 @@ namespace HalloAsync
             });
         }
 
+
         private void Abort(object sender, RoutedEventArgs e)
         {
             cts.Cancel();
@@ -162,5 +163,6 @@ namespace HalloAsync
             Thread.Sleep(5000);
             return nummer * 745734;
         }
+
     }
 }
