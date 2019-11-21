@@ -26,7 +26,7 @@ namespace HalloSerialisierung
         {
             InitializeComponent();
 
-            //this.SizeChanged += (o, e) => MessageBox.Show("Nö");
+            this.SizeChanged += (o, e) => MessageBox.Show("Nö");
 
             RoundHouseClick += (s, e) => MessageBox.Show($"RoundhouseClick: {e}");
 

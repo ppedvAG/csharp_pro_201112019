@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloTPL", "HalloTPL\HalloTPL.csproj", "{5C8BA85A-B333-4B82-9101-05D485508A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C8BA85A-B333-4B82-9101-05D485508A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8BA85A-B333-4B82-9101-05D485508A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8BA85A-B333-4B82-9101-05D485508A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8BA85A-B333-4B82-9101-05D485508A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83929610-CF80-4A2E-95C0-3A9D58A2F8E9}
+	EndGlobalSection
+EndGlobal
