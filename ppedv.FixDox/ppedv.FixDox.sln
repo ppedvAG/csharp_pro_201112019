@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.FixDox.Data.EF", "ppe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.FixDox.Data.EF.Tests", "ppedv.FixDox.Data.EF.Tests\ppedv.FixDox.Data.EF.Tests.csproj", "{5ABBE556-362D-4E05-8290-2D7913869676}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.FixDox.Device.Binford", "ppedv.FixDox.Device.Binford\ppedv.FixDox.Device.Binford.csproj", "{6A53FAE0-F951-41A3-ADF3-65300B61E103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.FixDox.Device.Binford.Tests", "ppedv.FixDox.Device.Binford.Tests\ppedv.FixDox.Device.Binford.Tests.csproj", "{6FBA3767-05E0-4589-BE8F-E02A69549912}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{5ABBE556-362D-4E05-8290-2D7913869676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ABBE556-362D-4E05-8290-2D7913869676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ABBE556-362D-4E05-8290-2D7913869676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A53FAE0-F951-41A3-ADF3-65300B61E103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A53FAE0-F951-41A3-ADF3-65300B61E103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A53FAE0-F951-41A3-ADF3-65300B61E103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A53FAE0-F951-41A3-ADF3-65300B61E103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBA3767-05E0-4589-BE8F-E02A69549912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBA3767-05E0-4589-BE8F-E02A69549912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBA3767-05E0-4589-BE8F-E02A69549912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBA3767-05E0-4589-BE8F-E02A69549912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
