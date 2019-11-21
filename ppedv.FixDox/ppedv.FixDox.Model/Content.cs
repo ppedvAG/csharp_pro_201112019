@@ -6,6 +6,6 @@ namespace ppedv.FixDox.Model
     {
         public string Name { get; set; }
         public int Länge { get; set; }
-        public virtual HashSet<Medium> Medien { get; set; } = new HashSet<Medium>();
+        //public virtual HashSet<Medium> Medien { get; set; } = new HashSet<Medium>();
     }
 }
