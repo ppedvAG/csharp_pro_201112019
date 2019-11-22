@@ -8,6 +8,7 @@ namespace ppedv.FixDox.Data.EF
 {
     public class EfRepository : IRepository
     {
+
         EfContext context = new EfContext();
 
         public void Add<T>(T entity) where T : Entity
@@ -20,6 +21,11 @@ namespace ppedv.FixDox.Data.EF
         public void Delete<T>(T entity) where T : Entity
         {
             context.Set<T>().Remove(entity);
+        }
+
+        public void Dispose()
+        {
+            context.Dispose();
         }
 
         public IEnumerable<T> GetAll<T>() where T : Entity
