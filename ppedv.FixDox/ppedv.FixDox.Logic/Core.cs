@@ -13,8 +13,6 @@ namespace ppedv.FixDox.Logic
             this.Repository = repository;
         }
 
-        public Core() : this(new Data.EF.EfRepository())
-        { }
 
         public void CreateDemoDaten()
         {
