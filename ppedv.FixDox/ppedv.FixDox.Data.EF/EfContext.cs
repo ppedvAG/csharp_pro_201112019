@@ -21,11 +21,13 @@ namespace ppedv.FixDox.Data.EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(conString);
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer(conString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.Entity<Content>().HasMany(x => x.Medien);
+            //modelBuilder.Entity<Medium>().HasMany(x => x.Contents);
         }
     }
 }

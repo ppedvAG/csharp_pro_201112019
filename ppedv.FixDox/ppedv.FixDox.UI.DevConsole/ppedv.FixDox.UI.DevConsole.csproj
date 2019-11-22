@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.FixDox.Logic\ppedv.FixDox.Logic.csproj" />
+    <ProjectReference Include="..\ppedv.FixDox.Model\ppedv.FixDox.Model.csproj" />
+  </ItemGroup>
+
+</Project>
